@@ -152,11 +152,11 @@ function sumNums(num1, num2) { // declaramos la funcion sunNum y asignamos dos p
 var result =22
  sumNums(2,3) + // 5
 sumNums(3,
-    sumNums(2,1)// 3
+     sumNums(2,1)// 3
     ) + // 6
  sumNums(
     sumNums(2,1),
     sumNums(2,3)
     ); // 3+5=8
 console.log('result is', result);
-//22
+//19
