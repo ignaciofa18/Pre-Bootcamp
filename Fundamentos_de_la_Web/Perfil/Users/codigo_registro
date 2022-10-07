@@ -1,0 +1,10 @@
+<!doctype html>
+<html>
+    <head>
+        <title>Registration Form</title>
+    </head>
+
+    <body>
+        <label for="text">First Name:*</label>
+    </body>
+</html>
