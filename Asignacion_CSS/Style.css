@@ -1,0 +1,26 @@
+h1{ 
+ color: white;
+ font-family: cursive;
+ background-color: black;
+ font-weight: bold;
+}
+span{
+    color: rgb(0, 255, 191);
+}
+
+h2{
+    color: white;
+    background-color: purple;
+    text-align: center;
+    font-family: ;
+  }
+
+
+h3{
+    color: purple;
+    background-color: cornflowerblue;
+    text-align: right;
+    text-decoration: underline;
+    font-family: ;
+
+  }
