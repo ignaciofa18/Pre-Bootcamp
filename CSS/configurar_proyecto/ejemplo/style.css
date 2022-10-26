@@ -2,8 +2,6 @@
     color: darkslategrey;
     font-style: italic;
 }
-
-
 * {
     outline: 1px solid red;
 }
@@ -21,4 +19,21 @@ h1 {
   text-align: center;
 }
 
+h1, h2 {
+    display: inline;
+    background-color: cyan;
+}
+label, input {
+    display: block;
+}
 
+
+p {
+    display: inline-block;
+    width: 200px;
+    box-sizing: border-box;
+    padding: 20px;
+    background-color: lightgreen;
+    margin: 10px;
+  }
+  
