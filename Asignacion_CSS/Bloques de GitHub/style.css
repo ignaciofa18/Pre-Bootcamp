@@ -1,0 +1,30 @@
+h1{
+    text-align: center;
+}
+
+.ironcat{
+    background-color:cornflowerblue;
+    text-align: center;
+    margin-bottom: 20px;
+    padding: 10px;
+}
+
+.superman {
+    background-color:yellow;
+    text-align: center;
+   padding: 10px;
+   
+    
+}
+
+.minion {
+    text-align: center;
+    padding: 10px;
+}
+
+img.octocat {
+    height: 150px;
+    
+}
+
+
