@@ -1,0 +1,54 @@
+body{
+    font-family: 'Robito' , sans-serif;
+}
+
+.nav{
+    background-color: grey;
+    color: black;
+    height: 80px;
+    width: 1000px;
+    display: flex;
+    align-items: center;
+    justify-content: space-between  ;
+}
+
+.nav-links{
+margin-right: 250px;
+width: 40%;
+display: flex;
+align-items: center;
+justify-content: space-around;
+list-style-type: none;
+border: 1px solid #000;
+background-color: white;
+
+}
+
+.login{
+    height: 35px;
+    width: 100px;
+    background-color: blue;
+    border: none;
+    box-shadow: 5px 5px black;
+    margin-left: 400%;
+}
+
+.dojonary-title{
+    margin-left: 100px;
+}
+
+.cuadrado {
+    margin-top: 20px;
+    width:550px;    
+    height: 200px;
+    border: 3px solid #000;
+    background-color: white;
+  }
+
+.cuadrado-2 {
+    margin-top: 20px;
+    width:550px;    
+    height: 200px;
+    border: 3px solid #000;
+    background-color: white;
+  }
