@@ -1,22 +1,22 @@
+/*PARTE 1*/
+
 * {
     margin: 0;
     padding: 0;
 }
+.container{
+    display: flex;
+}
+.left{
+    
+}
+.right{
 
+}
 body {
     font-family: 'Roboto', sans-serif;
     background-color: #f3f3f3;
 }
-
-
-
-
-
-
-
-
-
-
 
 .btn {
     font-size: 1.2rem;
@@ -26,17 +26,13 @@ body {
     cursor: pointer;
 }
 
-
-
-
-
 .box {
     background-color: #fff;
     margin-top: 30px;
     padding: 30px;
     border: 5px solid #999;
-    width: 700px;
-    margin-left: 600px;
+    width: 800px;
+    margin-left: 550px;
 }
 
 .definition {
@@ -48,11 +44,6 @@ body {
 .left {
     flex: 1;
     text-align: center;
-}
-
-.left p {
-    margin: 10px 0;
-    font-size: 1.2rem;
 }
 
 .like {
@@ -75,3 +66,52 @@ body {
     margin-top: 20px;
 }
 
+/*PARTE 2*/
+
+.box-1{   
+    background-color: black;
+    height: 100px;
+    width: 800px;
+    color: white;
+}
+
+.h-1{
+    text-align: center;
+    margin-top: 30px;
+}
+
+.box-2{
+    height: 300px;
+    width: 200px;
+    border: 3px solid black;
+    margin-left: 800px;
+}
+
+.box-3{
+    height: 200px;
+    width: 600px;
+    border: 3px solid black;
+    
+    margin-bottom: 50px;
+}
+
+.box-4{
+    height: 200px;
+    width: 600px;
+    border: 3px solid black;
+   
+    margin-bottom: 50px;
+}
+
+.box-5{
+    height: 200px;
+    width: 600px;
+    border: 3px solid black;
+    
+    margin-bottom: 50px;
+}
+
+.contenedor{
+    display: inline-block;
+    
+}
