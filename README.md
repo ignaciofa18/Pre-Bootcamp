@@ -1,2 +1,2 @@
 # Pre-Bootcamp
-este es un ajuste del readme
+este es otro ajuste al readme

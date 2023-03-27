@@ -4,25 +4,74 @@
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Document</title>
-    <link rel="stylesheet" href="script.js">
+    <title>VideoLab</title>
+    <link rel="preconnect" href="https://fonts.gstatic.com">
+    <link href="https://fonts.googleapis.com/css2?family=Montserrat&display=swap" rel="stylesheet"> 
     <link rel="stylesheet" href="style.css">
 </head>
 <body>
 
-    <img src="jane-m.jpg" alt="gear.png" id="jane-m.jpg" />
-    <button onclick="switchImg()">Switch</button>
-    
-    <script>
+    <!-- top navigation -->
+    <div class="top">
+        <div class="nav-container">
+            <h1>VideoLab</h1>
+            <input type="text" placeholder="Search" name="query" class="search">
+            <button class="btn">Login</button>
+        </div>
+    </div>
 
-var petImg = document.querySelector("#gear.png");
-    
-function switchImg() {
-    petImg.src = "jane-m.jpg";  
-}
+    <!-- main content -->
+    <div class="flex-container">
 
+        <!-- left column -->
+        <div class="col-l">
 
-    </script>
+            <video src="pexels-lachlan-ross-8775687.mp4" height="400" muted loop onmouseover="playVideo(this)" onmouseout="pauseVideo(this)"></video>
 
+           
+            <div class="row">
+                <div class="start">
+                    <h1>Playa</h1>
+                    <h3>1.8K Views | May, 18, 2020</h3>
+                    <div class="user">
+                        <img src="assets/user.png" alt="user-circle" class="avatar-s">
+                        <span class="user-name">Nvcho.af</span>
+                    </div>
+                </div>
+                <button class="btn">Subscribe</button>
+            </div>
+
+        </div>
+
+        <!-- right column -->
+        <div class="col-r">
+
+            <h3 class="sub-header">Up Next</h3>
+
+            <div class="video-small">
+                <img src="pexels-dario-fernandez-ruz-9130080.mp4" alt="video dario-fernandez" class="vid-s">
+                <span class="video-title">mountains</span>
+            </div>
+
+            <div class="video-small">
+                <img src="pexels-lachlan-ross-8775687.mp4" alt="video lachlan" class="vid-s">
+                <span class="video-title">Beaches</span>
+            </div>
+
+            <div class="video-small">
+                <img src="pexels-life-on-super-9154023.mp4" alt="video life-on-super" class="vid-s">
+                <span class="video-title">black and white</span>
+            </div>
+
+            <div class="video-small">
+                <img src="pexels-sunsetoned-6606067.mp4" alt="video sunsetoned" class="vid-s">
+                <span class="video-title">Beaches</span>
+            </div>
+
+        </div>
+
+    </div>
+
+    <script src="script.js"></script>
 </body>
 </html>

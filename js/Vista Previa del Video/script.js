@@ -1,8 +1,11 @@
+console.log("page loaded...");
 
-
-
-var petImg = document.querySelector("#pet-img");
-    
-function switchImg() {
-    petImg.src = "gear.png";  
+function playVideo(vid) {
+    vid.play();
 }
+
+function pauseVideo(vid) {
+    vid.pause();
+    vid.currentTime = 0;
+}
+
