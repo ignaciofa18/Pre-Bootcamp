@@ -88,3 +88,27 @@ body {
     background-color: rgb(194, 205, 218);
     margin-top: 15px;
 }
+
+.parte-abajo-1{
+    height: 180px;
+    width: 585px;
+    background-color: white;
+    margin: 20px;
+    float: left;
+}
+
+.parte-abajo-2{
+    height: 180px;
+    width: 585px;
+    background-color: white;
+    margin: 20px;
+    float: left;
+}
+
+.parte-abajo-3{
+    height: 180px;
+    width: 585px;
+    background-color: white;
+    margin: 20px;
+    float: right;
+}
