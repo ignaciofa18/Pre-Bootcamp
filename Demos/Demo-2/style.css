@@ -16,6 +16,14 @@
     
 }
 
+.col-primera-parte{
+    margin: 10px;
+    padding: 10px;
+    margin-top: 100px;
+    margin-left: 80px;
+    display: flex;
+}
+
 .search {
     padding: 5px 10px;
     font-size: 1.2rem;
@@ -32,8 +40,9 @@
 
 .nav-container, .flex-container {
     width: 1080px;
-    margin: 0 auto;
+
     display: flex;
+    margin-left: 50px;
 }
 
 .nav-container {
@@ -42,6 +51,7 @@
     height: inherit;
     margin-right: 1000px;
 }
+
 .trow{
     color: white;
     background-color: rgba(34, 32, 32, 0.897);
@@ -67,6 +77,16 @@
     margin-top: 50px;
 }
 
+.parte-abajo {
+    height: 40px;
+    width: 1000%;
+    margin-bottom: 1%;
+    color: white;
+    display: flex;
+    list-style-type: none;
+    background-color: #474747;
+    }
+
 .buttom1{
     height: 80px;
     background-color: rgba(26, 73, 201, 0.781);
@@ -78,6 +98,7 @@
 
 .row {
     display: flex;
+    width: 2000px;
 }
 
 .row3 {
@@ -91,7 +112,6 @@
     flex: 1;
     display: flex;
     width: 300px;
-    margin-left: 200px;
 }
 
 .col-2 {
@@ -108,7 +128,8 @@
 .col-4{
     height: 350px;
     width: 1000px;
-    margin-left: 180px;
+    margin-left: 40px;
+    margin-top: 50px;
 }
 
 .btn-store{
@@ -117,4 +138,44 @@
     background-color: rgb(23, 74, 216);
     color: white;
     margin-right: 50px;
+}
+
+.img-pequeña1{
+    height: 200px;
+    background-image: url(watch_now.png);
+    background-repeat: no-repeat;
+    background-size: 300px;
+}
+
+.img-pequeña2{
+    height: 200px;
+    background-image: url(take_the_tour.png);
+    background-repeat: no-repeat;
+    background-size: 300px;
+}
+
+.img-pequeña3{
+    height: 200px;
+    background-image: url(start_your_trial.png);
+    background-repeat: no-repeat;
+    background-size: 300px;
+}
+
+.img-pequeña4{
+    height: 200px;
+    background-image: url(find_products.png);
+    background-repeat: no-repeat;
+    background-size: 300px;
+}
+
+.row2{
+    display: flex;
+}
+
+.col-ultima-parte{
+    margin: 10px;
+    padding: 10px;
+    flex: 1;
+    margin-top: 100px;
+    margin-left: 80px;
 }
